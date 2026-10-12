@@ -1,6 +1,6 @@
 # sample dockerfile for testing docker builds
 # süre testi
-FROM nginx:alpine
+FROM nginx:1.29-alpine AS base
 
 RUN apk add --no-cache curl
 
