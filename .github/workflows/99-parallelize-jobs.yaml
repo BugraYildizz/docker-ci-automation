@@ -237,7 +237,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf #v6.0.0
         with:
-          images: yldzzbugra1/docker-ci-automation,ghcr.io/bugrayildiz/docker-ci-automation
+          images: yldzzbugra1/docker-ci-automation,ghcr.io/bugrayildizz/docker-ci-automation
           flavor: |
             latest=false
           tags: |
